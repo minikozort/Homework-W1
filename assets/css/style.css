@@ -1,14 +1,17 @@
 * {
+    /*sets box sizes*/
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
 body {
+    /*sets background color for the body of the webpage*/
     background-color: #d9dcd6;
 }
 
 .header {
+    /*sets properties for the header such as background color and text color*/
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
@@ -16,15 +19,18 @@ body {
 }
 
 .header h1 {
+    /*places the header as inline-block*/
     display: inline-block;
     font-size: 48px;
 }
 
 .header h1 .seo {
+    /*sets the color for a word*/
     color: #d9dcd6;
 }
 
 .header nav {
+    /*sets navigation bar properties*/
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -33,24 +39,30 @@ body {
 }
 
 .header nav ul {
+    /*sets the list style for the list in the navigation bar*/
     list-style-type: none;
 }
 
 .header nav ul li {
+    /*positions the navigation bars's list items*/
     display: inline-block;
     margin-left: 25px;
 }
 
+
 a {
+    /*sets the color of the text and size*/
     color: #ffffff;
     text-decoration: none;
 }
 
 p {
+    /*sets the color of the text and size*/
     font-size: 16px;
 }
 
 .hero {
+    /*sets the image sizes and position*/
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
@@ -60,22 +72,26 @@ p {
 }
 
 .float-left {
+    /*positioning for the content*/
     float: left;
     margin-right: 25px;
 }
 
 .float-right {
+    /*positioning for the content*/
     float: right;
     margin-left: 25px;
 }
 
 .content {
+    /*positioning for the content*/
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
 .benefits {
+    /*positioning for the content and sets the properties*/
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -87,21 +103,25 @@ p {
 }
 
 .benefit-lead {
+    /*positioning for the content and sets the properties*/
     margin-bottom: 32px;
     color: #ffffff;
 }
 
 .benefit-brand {
+    /*positioning for the content and sets the properties*/
     margin-bottom: 32px;
     color: #ffffff;
 }
 
 .benefit-cost {
+    /*positioning for the content and sets the properties*/
     margin-bottom: 32px;
     color: #ffffff;
 }
 
 .benefit-lead h3 {
+    /*positioning for the content and sets the properties*/
     margin-bottom: 10px;
     text-align: center;
 }
@@ -112,29 +132,34 @@ p {
 }
 
 .benefit-cost h3 {
+    /*positioning for the content and sets the properties*/
     margin-bottom: 10px;
     text-align: center;
 }
 
 .benefit-lead img {
+    /*positioning for the lead image */
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
 .benefit-brand img {
+    /*positioning for the brand image */
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
 .benefit-cost img {
+    /*positioning for the cost image */
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
 .search-engine-optimization {
+    /*Sets the properties and positions the box*/  
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -144,6 +169,7 @@ p {
 }
 
 .online-reputation-management {
+    /*Sets the properties and positions the box*/  
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -153,6 +179,7 @@ p {
 }
 
 .social-media-marketing {
+    /*Sets the properties and positions the box*/  
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -162,33 +189,40 @@ p {
 }
 
 .search-engine-optimization img {
+    /*Sets the height of the image*/  
     max-height: 200px;
 }
 
 .online-reputation-management img {
+    /*Sets the height of the image*/
     max-height: 200px;
 }
 
 .social-media-marketing img {
+    /*Sets the height of the image*/
     max-height: 200px;
 }
 
 .search-engine-optimization h2 {
+    /*Sets the font size and add margin for the header text*/
     margin-bottom: 20px;
     font-size: 36px;
 }
 
 .online-reputation-management h2 {
+    /*Sets the font size and add margin for the header text*/
     margin-bottom: 20px;
     font-size: 36px;
 }
 
 .social-media-marketing h2 {
+    /*Sets the font size and add margin for the header text*/
     margin-bottom: 20px;
     font-size: 36px;
 }
 
 .footer {
+    /* Sets the properties and postions the footer */
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -196,5 +230,6 @@ p {
 }
 
 .footer h2 {
+    /* Sets the font size for the footer's text */
     font-size: 20px;
 }
